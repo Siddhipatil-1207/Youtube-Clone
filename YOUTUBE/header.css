@@ -1,0 +1,206 @@
+
+.header
+{
+
+height: 57px;
+background: white;
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+vertical-align: top;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+
+border-bottom-width: 1px;
+border-color: rgb(204, 204, 204);
+border-bottom-style: solid;
+}
+
+.left
+{
+
+height: 24px;
+display: flex;
+align-items: center;
+
+}
+
+.hamburg {
+
+height:24px;
+margin-right: 24px;
+margin-left: 24px;
+
+}
+
+.you-logo{
+
+height: 20px ;
+width: 90px;
+
+}
+
+.mid
+{
+display: flex;
+align-items: center;
+flex: 1;
+margin-left: 60px;
+max-width: 500px;
+
+}
+
+.searchbar{
+
+height: 36px;
+max-width: 342px;
+flex: 1;
+padding-left:12px;
+padding-right:2px ;
+padding-top: 1px;
+padding-bottom: 1px;
+border-width: 1px;
+border-color: rgb(204, 204, 204);
+border-style: solid;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.15);
+font-size: 18px ;
+width: 0;
+
+}
+
+.searchbar::placeholder
+{
+
+font-family: roboto, arial;
+font-size: 17px;
+
+}
+
+.searchbtn{
+
+height: 40px;
+width: 60px;
+background: #f7f7f7;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-style: solid;
+border-width: 1px;
+border-left-width: 0px;
+border-color: rgb(204, 204, 204);
+margin-right: 8px;
+
+}
+
+.searchicon
+{
+
+width: 24px;
+height: 24px;
+vertical-align: middle;
+
+}
+
+.voicemicbtn{
+
+width: 40px;
+height: 40px;
+border: none;
+border-radius: 20px;
+background: #f8f8f8;
+
+}
+
+.voicemic-icon
+{
+
+width: 24px;
+height: 24px;
+vertical-align: middle;
+
+}
+
+.right
+{
+
+width: 182px;
+margin-left: 29px;
+margin-right: 24px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+
+}
+
+.upload
+{
+
+width: 24px;
+
+}
+
+.youapps
+{
+
+width: 24px;
+
+}
+
+.notification-div
+{
+
+position: relative;
+padding-top: 4px;
+
+}
+
+.notifications-img
+{
+
+width: 24px;
+
+}
+
+.notifications-count
+{
+
+display: flex;
+position: absolute;
+top: 3px;
+right: -3px;
+background-color: rgb(204,0,0);
+color: white;
+
+width: 5px;
+height: 15px;
+
+font-size: 10px;
+text-size-adjust: 100%;
+border-radius: 9px;
+justify-content: center;
+align-items: center;
+
+padding: 0px 5px 0px 5px;
+border-width: 2px;
+border-color: white;
+
+}
+
+
+.channel-profile-pic
+{
+
+width: 32px;
+border-radius: 16px;
+
+
+}
